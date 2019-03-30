@@ -1,0 +1,55 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/card/card",
+    "pages/find/find",
+    "pages/user/user",
+    "pages/search/search",
+    "pages/newsCenter/newsCenter",
+    "pages/component/head/head",
+    "pages/newsDetails/newsDetails",
+    "pages/referralCode/referralCode",
+    "pages/radarStatistics/radarStatistics",
+    "pages/selectionDate/selectionDate",
+    "pages/ChatWindow/ChatWindow",
+    "pages/component/businessCard/businessCard",
+    "pages/component/businessCard_2/businessCard_2",
+    "pages/component/businessCard_3/businessCard_3"
+
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#3190fe",
+    "navigationBarTitleText": "商栈云名片",
+    "navigationBarTextStyle": "white",
+    "onReachBottomDistance": 50
+  },
+  "tabBar": {
+    "borderStyle": "white",
+    "selectedColor": "#3190fe",
+    "list": [{
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "assets/tabs/home.png",
+        "selectedIconPath": "assets/tabs/home-activ.png"
+      },
+      {
+        "pagePath": "pages/card/card",
+        "text": "名片夹",
+        "iconPath": "assets/tabs/card.png",
+        "selectedIconPath": "assets/tabs/card-activ.png"
+      },
+      {
+        "pagePath": "pages/find/find",
+        "text": "发现",
+        "iconPath": "assets/tabs/find.png",
+        "selectedIconPath": "assets/tabs/find-activ.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "我的",
+        "iconPath": "assets/tabs/user.png",
+        "selectedIconPath": "assets/tabs/user-activ.png"
+      }
+    ]
+  }
+}
